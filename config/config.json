@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "190702",
+    "database": "challenge-06-be",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "190702",
+    "database": "challenge-06-be",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "hnopyyftrvufbt",
+    "password": "73bef0130bc21c77e8f3886e05b57ece3bed3685d979e57e1ea3c76101c7b096",
+    "database": "da4m2l95js18s0",
+    "host": "ec2-54-172-175-251.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
